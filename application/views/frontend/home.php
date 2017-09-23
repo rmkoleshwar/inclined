@@ -75,7 +75,7 @@
             <div class="col-md-3 col-sm-6 col-xs-6 col-xxs-12 fh5co-mb30">
                 <div class="fh5co-product">
                     <img src="<?php echo base_url(); ?>/asset/images/slide_1.jpg" alt="FREEHTML5.co Free HTML5 Template Bootstrap" class="img-responsive img-rounded to-animate">
-                    <h4>Lorem ipsum</h4>
+                    <h4>Slide 1</h4>
                     <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
                     <p><a href="#">Read more</a></p>
                 </div>
