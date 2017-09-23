@@ -74,7 +74,7 @@
         <div class="row">
             <div class="col-md-3 col-sm-6 col-xs-6 col-xxs-12 fh5co-mb30">
                 <div class="fh5co-product">
-                    <img src="images/slide_1.jpg" alt="FREEHTML5.co Free HTML5 Template Bootstrap" class="img-responsive img-rounded to-animate">
+                    <img src="<?php echo base_url(); ?>/asset/images/slide_1.jpg" alt="FREEHTML5.co Free HTML5 Template Bootstrap" class="img-responsive img-rounded to-animate">
                     <h4>Lorem ipsum</h4>
                     <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
                     <p><a href="#">Read more</a></p>
@@ -82,7 +82,7 @@
             </div>
             <div class="col-md-3 col-sm-6 col-xs-6 col-xxs-12 fh5co-mb30">
                 <div class="fh5co-product">
-                    <img src="images/slide_2.jpg" alt="FREEHTML5.co Free HTML5 Template Bootstrap" class="img-responsive img-rounded to-animate">
+                    <img src="<?php echo base_url(); ?>/asset/images/slide_2.jpg" alt="FREEHTML5.co Free HTML5 Template Bootstrap" class="img-responsive img-rounded to-animate">
                     <h4>Architecto nihil</h4>
                     <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
                     <p><a href="#">Read more</a></p>
@@ -91,7 +91,7 @@
             <div class="visible-sm-block visible-xs-block clearfix"></div>
             <div class="col-md-3 col-sm-6 col-xs-6 col-xxs-12 fh5co-mb30">
                 <div class="fh5co-product">
-                    <img src="images/slide_3.jpg" alt="FREEHTML5.co Free HTML5 Template Bootstrap" class="img-responsive img-rounded to-animate">
+                    <img src="<?php echo base_url(); ?>/asset/images/slide_3.jpg" alt="FREEHTML5.co Free HTML5 Template Bootstrap" class="img-responsive img-rounded to-animate">
                     <h4>Animi earum</h4>
                     <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
                     <p><a href="#">Read more</a></p>
@@ -99,7 +99,7 @@
             </div>
             <div class="col-md-3 col-sm-6 col-xs-6 col-xxs-12 fh5co-mb30">
                 <div class="fh5co-product">
-                    <img src="images/slide_4.jpg" alt="FREEHTML5.co Free HTML5 Template Bootstrap" class="img-responsive img-rounded to-animate">
+                    <img src="<?php echo base_url(); ?>/asset/images/slide_4.jpg" alt="FREEHTML5.co Free HTML5 Template Bootstrap" class="img-responsive img-rounded to-animate">
                     <h4>Recusandae iste</h4>
                     <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
                     <p><a href="#">Read more</a></p>
@@ -114,16 +114,16 @@
     <div id="fh5co-clients">
         <div class="container">
             <div class="row">
-                <div class="col-md-3 col-sm-6 col-xs-6 col-xxs-12 fh5co-client-logo text-center to-animate"><img src="images/client_1.png" alt="FREEHTML5.co Free HTML5 Bootstrap Template" class="img-responsive"></div>
-                <div class="col-md-3 col-sm-6 col-xs-6 col-xxs-12 fh5co-client-logo text-center to-animate"><img src="images/client_2.png" alt="FREEHTML5.co Free HTML5 Bootstrap Template" class="img-responsive"></div>
+                <div class="col-md-3 col-sm-6 col-xs-6 col-xxs-12 fh5co-client-logo text-center to-animate"><img src="<?php echo base_url(); ?>/asset/images/client_1.png" alt="FREEHTML5.co Free HTML5 Bootstrap Template" class="img-responsive"></div>
+                <div class="col-md-3 col-sm-6 col-xs-6 col-xxs-12 fh5co-client-logo text-center to-animate"><img src="<?php echo base_url(); ?>/asset/images/client_2.png" alt="FREEHTML5.co Free HTML5 Bootstrap Template" class="img-responsive"></div>
                 <div class="visible-sm-block visible-xs-block clearfix"></div>
-                <div class="col-md-3 col-sm-6 col-xs-6 col-xxs-12 fh5co-client-logo text-center to-animate"><img src="images/client_3.png" alt="FREEHTML5.co Free HTML5 Bootstrap Template" class="img-responsive"></div>
-                <div class="col-md-3 col-sm-6 col-xs-6 col-xxs-12 fh5co-client-logo text-center to-animate"><img src="images/client_4.png" alt="FREEHTML5.co Free HTML5 Bootstrap Template" class="img-responsive"></div>
+                <div class="col-md-3 col-sm-6 col-xs-6 col-xxs-12 fh5co-client-logo text-center to-animate"><img src="<?php echo base_url(); ?>/asset/images/client_3.png" alt="FREEHTML5.co Free HTML5 Bootstrap Template" class="img-responsive"></div>
+                <div class="col-md-3 col-sm-6 col-xs-6 col-xxs-12 fh5co-client-logo text-center to-animate"><img src="<?php echo base_url(); ?>/asset/images/client_4.png" alt="FREEHTML5.co Free HTML5 Bootstrap Template" class="img-responsive"></div>
             </div>
         </div>
     </div>
 
-    <div class="fh5co-bg-section" style="background-image: url(images/slide_2.jpg); background-attachment: fixed;">
+    <div class="fh5co-bg-section" style="background-image: url(<?php echo base_url(); ?>/asset/images/slide_2.jpg); background-attachment: fixed;">
         <div class="fh5co-overlay"></div>
         <div class="container">
             <div class="row">
