@@ -1,8 +1,12 @@
+<?php
+    $controller = $this->router->fetch_class();
+    $method     = $this->router->fetch_method();
+?>
 <!DOCTYPE html>
 <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>Inclined Engineer Pvt Ltd.</title>
+    <title>Inclined Engineering & Consultancy</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="description" content="" />
     <meta name="keywords" content="" />
@@ -23,11 +27,12 @@
     <link rel="shortcut icon" href="favicon.ico">
 
     <!-- Google Webfonts -->
-    <link href='http://fonts.googleapis.com/css?family=Roboto:400,300,100,500' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Roboto:400,300,100,500' rel='stylesheet' type='text/css'>
     <link href='https://fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css'>
 
     <!-- Animate.css -->
     <link rel="stylesheet" href="<?php echo base_url(); ?>/asset/css/animate.css">
+    <link rel="stylesheet" href="<?php echo base_url(); ?>/asset/css/custom_css.css">
     <!-- Icomoon Icon Fonts-->
     <link rel="stylesheet" href="<?php echo base_url(); ?>/asset/css/icomoon.css">
     <!-- Owl Carousel -->
@@ -53,15 +58,15 @@
                 <div class="navbar-header"> 
                     <!-- Mobile Toggle Menu Button -->
                     <a href="#" class="js-fh5co-nav-toggle fh5co-nav-toggle" data-toggle="collapse" data-target="#fh5co-navbar" aria-expanded="false" aria-controls="navbar"><i></i></a>
-                    <a class="navbar-brand" href="index.html">Inclined Engg</a>
+                    <a class="navbar-brand" href="<?php echo base_url(); ?>">Inclined Engg</a>
                 </div>
                 <div id="fh5co-navbar" class="navbar-collapse collapse">
                     <ul class="nav navbar-nav navbar-right">
-                        <li class="active"><a href="<?php echo base_url(); ?>"><span>Home <span class="border"></span></span></a></li>
-                        <li><a href="<?php echo base_url(); ?>aboutus"><span>About Us<span class="border"></span></span></a></li>
-                        <li><a href="javascript: void(0);"><span>Services<span class="border"></span></span></a></li>
-                            <li><a href="javascript: void(0);"><span>Careers<span class="border"></span></span></a></li>
-                        <li><a href="<?php echo base_url(); ?>contactus"><span>Contact Us<span class="border"></span></span></a></li>
+                        <li class="<?php if($controller == 'home'){ echo 'active'; }?>"><a href="<?php echo base_url(); ?>"><span>Home <span class="border"></span></span></a></li>
+                        <li class="<?php if($controller == 'aboutus'){ echo 'active'; }?>"><a href="<?php echo base_url(); ?>aboutus"><span>About Us<span class="border"></span></span></a></li>
+                        <li class="<?php if($controller == ''){ echo 'active'; }?>"><a href="javascript: void(0);"><span>Services<span class="border"></span></span></a></li>
+                        <li class="<?php if($controller == ''){ echo 'active'; }?>"><a href="javascript: void(0);"><span>Careers<span class="border"></span></span></a></li>
+                        <li class="<?php if($controller == 'contactus'){ echo 'active'; }?>"><a href="<?php echo base_url(); ?>contactus"><span>Contact Us<span class="border"></span></span></a></li>
                     </ul>
                 </div>
             </div>
@@ -69,17 +74,23 @@
     </header>
     <!-- END .header -->
 
-    <?php include_once 'slider.php';?>
+    <?php
+    $controller = $this->router->fetch_class();
+    //$method     = $this->router->fetch_method();
+    if ($controller == 'home') {
+        include_once 'slider.php';
+    }
+    ?>
 
     <?php echo $content_for_layout; ?>
 
-    <footer id="fh5co-footer">
+    <footer id="inc-fh5co-footer">
 
         <div class="container">
             <div class="row">
                 <div class="col-md-6 col-sm-6">
                     <div class="fh5co-footer-widget">
-                        <h2 class="fh5co-footer-logo">Booster</h2>
+                        <h4 class="inc-font-h4">Inclined Engineering</h4>
                         <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.</p>
                     </div>
                     <div class="fh5co-footer-widget">
@@ -92,23 +103,9 @@
                         </ul>
                     </div>
                 </div>
-
-                <div class="col-md-2 col-sm-6">
-                    <div class="fh5co-footer-widget top-level">
-                        <h4 class="fh5co-footer-lead ">Company</h4>
-                        <ul>
-                            <li><a href="#">About</a></li>
-                            <li><a href="#">Contact</a></li>
-                            <li><a href="#">News</a></li>
-                            <li><a href="#">Support</a></li>
-                            <li><a href="#">Career</a></li>
-                        </ul>
-                    </div>
-                </div>
-
-                <div class="visible-sm-block clearfix"></div>
-
-                <div class="col-md-2 col-sm-6">
+                
+                   
+                <div class="col-md-3 col-sm-6">
                     <div class="fh5co-footer-widget top-level">
                         <h4 class="fh5co-footer-lead">Features</h4>
                         <ul class="fh5co-list-check">
@@ -120,7 +117,8 @@
                         </ul>
                     </div>
                 </div>
-                <div class="col-md-2 col-sm-6">
+                
+                <div class="col-md-3 col-sm-6">
                     <div class="fh5co-footer-widget top-level">
                         <h4 class="fh5co-footer-lead ">Products</h4>
                         <ul class="fh5co-list-check">
@@ -131,6 +129,11 @@
                             <li><a href="#">Laboriosam ad commodi.</a></li>
                         </ul>
                     </div>
+                </div>
+            </div>
+            <div class="row fh5co-copyright">
+                <div class="col-md-5">
+                    <p><small>&copy; <?php echo date('Y') ?> Inclined Engineering & Consultancy. All Rights Reserved.</p>
                 </div>
             </div>
         </div>
