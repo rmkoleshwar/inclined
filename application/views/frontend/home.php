@@ -3,7 +3,7 @@
         <div class="row">
             <div class="col-md-12">
                 <h1 class="fh5co-page-heading-lead">
-                    About Us
+                    Who We Are
                     <span class="fh5co-border"></span>
                 </h1>
             </div>
@@ -12,66 +12,6 @@
 </aside>
 
 <div id="fh5co-main">
-<!--     Features 
-    <div id="fh5co-features">
-        <div class="container">
-            <div class="row text-center">
-                <p>Inclined Engineering & Consultancy is established in the year 2017 in fastest growing engineering hub of Pune, India. Our team of motivated technocrats having thorough experience in Plant Design & Engineering activities. Our team includes Engineers, 3D modellers & CAD operators.
-	We are keen to take challenges that give us opportunity to grow and hone our capabilities. Understanding customer requirement and execute our services to offer best optimum solution in given schedule is our motto.
-</p>
-                <div class="fh5co-spacer fh5co-spacer-md"></div>
-            </div>
-            <div class="row">
-                <div class="col-md-6 col-sm-6 fh5co-feature-border">
-                    <div class="fh5co-feature">
-                        <div class="fh5co-feature-icon to-animate">
-                            <i class="icon-bag"></i>
-                        </div>
-                        <div class="fh5co-feature-text">
-                            <h3>Shopping Bag</h3>
-                            <p>Far far away, behind the word mountains, far from the countries Vokalia.</p>
-                            <p><a href="#">Read more</a></p>
-                        </div>
-                    </div>
-                    <div class="fh5co-feature no-border">
-                        <div class="fh5co-feature-icon to-animate">
-                            <i class="icon-head"></i>
-                        </div>
-                        <div class="fh5co-feature-text">
-                            <h3>User Satisfaction</h3>
-                            <p>Far far away, behind the word mountains, far from the countries Vokalia.</p>
-                            <p><a href="#">Read more</a></p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-6 col-sm-6">
-                    <div class="fh5co-feature">
-                        <div class="fh5co-feature-icon to-animate">
-                            <i class="icon-microphone"></i>
-                        </div>
-                        <div class="fh5co-feature-text">
-                            <h3>Voice Recording</h3>
-                            <p>Far far away, behind the word mountains, far from the countries Vokalia.</p>
-                            <p><a href="#">Read more</a></p>
-                        </div>
-                    </div>
-                    <div class="fh5co-feature no-border">
-                        <div class="fh5co-feature-icon to-animate">
-                            <i class="icon-clock2"></i>
-                        </div>
-                        <div class="fh5co-feature-text">
-                            <h3>24/7 Support</h3>
-                            <p>Far far away, behind the word mountains, far from the countries Vokalia.</p>
-                            <p><a href="#">Read more</a></p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-     Features -->
-
-    		
     <!-- Products -->
     <div class="container" id="fh5co-products">
         <div class="row text-left">
@@ -82,15 +22,30 @@
                     <p>We are keen to take challenges that give us opportunity to grow and hone our capabilities. Understanding customer requirement and execute our services to offer best optimum solution in given schedule is our motto.</p></h3>
             </div>
         </div>
-        
+
     </div>
     <!-- Products -->
 
+
+</div>
+
+<aside class="fh5co-page-heading">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <h1 class="fh5co-page-heading-lead">
+                    Our Vision
+                    <span class="fh5co-border"></span>
+                </h1>
+            </div>
+        </div>
+    </div>
+</aside>
+<div id="fh5co-main">
     <!-- Products -->
     <div class="container" id="fh5co-products">
         <div class="row text-left">
-            <div class="col-md-8">
-                <h2 class="fh5co-section-lead">Our Vision</h2>
+            <div class="col-md-12">
                 <h3 class="fh5co-section-sub-lead">
                     <ul>
                         <li>Providing innovative & sustainable solutions for plant design & engineering</li>
@@ -100,73 +55,65 @@
                     </ul>
                 </h3>
             </div>
-            <div class="fh5co-spacer fh5co-spacer-md"></div>
         </div>
-        <div class="row">
-            <div class="col-md-3 col-sm-6 col-xs-6 col-xxs-12 fh5co-mb30">
-                <div class="fh5co-product">
-                    <img src="images/slide_1.jpg" alt="FREEHTML5.co Free HTML5 Template Bootstrap" class="img-responsive img-rounded to-animate">
-                    <h4>Lorem ipsum</h4>
-                    <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
-                    <p><a href="#">Read more</a></p>
-                </div>
-            </div>
-            <div class="col-md-3 col-sm-6 col-xs-6 col-xxs-12 fh5co-mb30">
-                <div class="fh5co-product">
-                    <img src="images/slide_2.jpg" alt="FREEHTML5.co Free HTML5 Template Bootstrap" class="img-responsive img-rounded to-animate">
-                    <h4>Architecto nihil</h4>
-                    <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
-                    <p><a href="#">Read more</a></p>
-                </div>
-            </div>
-            <div class="visible-sm-block visible-xs-block clearfix"></div>
-            <div class="col-md-3 col-sm-6 col-xs-6 col-xxs-12 fh5co-mb30">
-                <div class="fh5co-product">
-                    <img src="images/slide_3.jpg" alt="FREEHTML5.co Free HTML5 Template Bootstrap" class="img-responsive img-rounded to-animate">
-                    <h4>Animi earum</h4>
-                    <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
-                    <p><a href="#">Read more</a></p>
-                </div>
-            </div>
-            <div class="col-md-3 col-sm-6 col-xs-6 col-xxs-12 fh5co-mb30">
-                <div class="fh5co-product">
-                    <img src="images/slide_4.jpg" alt="FREEHTML5.co Free HTML5 Template Bootstrap" class="img-responsive img-rounded to-animate">
-                    <h4>Recusandae iste</h4>
-                    <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
-                    <p><a href="#">Read more</a></p>
-                </div>
-            </div>
 
-        </div>
     </div>
     <!-- Products -->
-    <div class="fh5co-spacer fh5co-spacer-lg"></div>
+</div>
 
-    <div id="fh5co-clients">
-        <div class="container">
-            <div class="row">
-                <div class="col-md-3 col-sm-6 col-xs-6 col-xxs-12 fh5co-client-logo text-center to-animate"><img src="images/client_1.png" alt="FREEHTML5.co Free HTML5 Bootstrap Template" class="img-responsive"></div>
-                <div class="col-md-3 col-sm-6 col-xs-6 col-xxs-12 fh5co-client-logo text-center to-animate"><img src="images/client_2.png" alt="FREEHTML5.co Free HTML5 Bootstrap Template" class="img-responsive"></div>
-                <div class="visible-sm-block visible-xs-block clearfix"></div>
-                <div class="col-md-3 col-sm-6 col-xs-6 col-xxs-12 fh5co-client-logo text-center to-animate"><img src="images/client_3.png" alt="FREEHTML5.co Free HTML5 Bootstrap Template" class="img-responsive"></div>
-                <div class="col-md-3 col-sm-6 col-xs-6 col-xxs-12 fh5co-client-logo text-center to-animate"><img src="images/client_4.png" alt="FREEHTML5.co Free HTML5 Bootstrap Template" class="img-responsive"></div>
+
+<aside class="fh5co-page-heading">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <h1 class="fh5co-page-heading-lead">
+                    Services
+                    <span class="fh5co-border"></span>
+                </h1>
             </div>
         </div>
     </div>
+</aside>
 
-    <div class="fh5co-bg-section" style="background-image: url(images/slide_2.jpg); background-attachment: fixed;">
-        <div class="fh5co-overlay"></div>
-        <div class="container">
-            <div class="row">
-                <div class="col-md-8 col-md-offset-2">
-                    <div class="fh5co-hero-wrap">
-                        <div class="fh5co-hero-intro text-center">
-                            <h1 class="fh5co-lead"><span class="quo">&ldquo;</span>Design is not just what it looks like and feels like. Design is how it works. <span class="quo">&rdquo;</span></h1>
-                            <p class="author">&mdash; <cite>Steve Jobs</cite></p>
-                        </div>
+<div id="fh5co-main">
+
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <!--                    <h2>Lorem ipsum dolor sit amet.</h2>
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Labore quis et recusandae atque, quos, dolore, rem, obcaecati ratione nesciunt similique accusamus? Esse ullam laboriosam error temporibus saepe totam asperiores hic at, eius officiis expedita ex corporis iusto deleniti ratione, possimus perspiciatis sunt consequatur, unde assumenda, nisi odit facilis quis ut!</p>
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vero laudantium totam sunt! Officiis quasi ipsam perspiciatis tenetur ipsum quibusdam eveniet eaque nihil dolorem doloremque nostrum fugiat optio asperiores ut non, pariatur! Culpa animi cumque corrupti laborum nulla. Tenetur, doloribus sint unde porro. Minus, ipsam iste quos totam unde vero dolore. Odio saepe minima totam quos illum, excepturi. Perferendis, tempore, non. Quidem animi enim est labore pariatur inventore beatae, et repellat eius nihil numquam quae explicabo quod dolorem earum doloribus voluptatem molestiae qui placeat tempore aperiam odit. Aperiam laudantium architecto, voluptatum dolorem pariatur consectetur, fugit repellendus, dolore placeat a soluta at.</p>-->
+                <div class="row">
+                    <div class="col-md-6">
+                        <p><a href="<?php echo base_url(); ?>asset/images/slider_1.png" class="image-popup"><img src="<?php echo base_url(); ?>asset/images/slider_1.png" alt="3D PDMS MODEL – COOLING TOWER" class="inc-img-responsive img-rounded"></a></p>
+                    </div>
+                    <div class="col-md-6">
+                        <p><a href="<?php echo base_url(); ?>asset/images/slider_2.png" class="image-popup"><img src="<?php echo base_url(); ?>asset/images/slider_2.png" alt="Service " class="inc-img-responsive img-rounded"></a></p>
+                    </div>
+                </div>
+                <div class="fh5co-spacer fh5co-spacer-xxs"></div>
+                <div class="row">
+                    <div class="col-md-6">
+                        <p>3D PDMS MODEL – COOLING TOWER.</p>
+                        <ul class="fh5co-list-check">
+                            <li>Lorem ipsum dolor sit.</li>
+                            <li>Nostrum eveniet animi sint.</li>
+                            <li>Dolore eligendi, porro ipsam.</li>
+                            <li>Repudiandae voluptate dolorem voluptas.</li>
+                        </ul>
+                    </div>
+                    <div class="col-md-6">
+                        <p>3D PDMS MODEL – UREA SYNTHESIS PROJECT</p>
+                        <ul class="fh5co-list-check">
+                            <li>Lorem ipsum dolor sit amet, consectetur.</li>
+                            <li>Architecto eius aut culpa nihil quibusdam!</li>
+                            <li>Quasi sit, error vitae unde ipsa.</li>
+                            <li>Nobis voluptas, explicabo reiciendis voluptatum cum.</li>
+                        </ul>
                     </div>
                 </div>
             </div>
         </div>
     </div>
 </div>
+<div class="fh5co-spacer fh5co-spacer-xxs"></div>

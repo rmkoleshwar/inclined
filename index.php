@@ -53,7 +53,21 @@
  *
  * NOTE: If you change these, also change the error_reporting() code below
  */
-	define('ENVIRONMENT', isset($_SERVER['CI_ENV']) ? $_SERVER['CI_ENV'] : 'development');
+	 
+    $servername = $_SERVER['SCRIPT_FILENAME'];
+    if(strstr($servername,"https://inclined.000webhostapp.com/")) 
+    {
+        define('ENVIRONMENT', 'production');
+    }
+    elseif($_SERVER['HTTP_HOST'] == 'https://inclined1.000webhostapp.com/') 
+    {
+        define('ENVIRONMENT', 'testing');
+    } 
+    else 
+    {
+        define('ENVIRONMENT', 'development');
+    }
+
 
 /*
  *---------------------------------------------------------------

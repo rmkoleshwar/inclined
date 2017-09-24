@@ -61,6 +61,6 @@
 
 <div class="fh5co-spacer fh5co-spacer-lg"></div>
 <script src="<?php echo base_url()?>asset/js/map.js"></script>
-<script type="text/javascript" src="http://maps.google.com/maps/api/js?key=AIzaSyASlTbQBErny2KzXoGiltnn2BDR_9Ciwu0&callback=initMap"></script>
+<script type="text/javascript" src="https://maps.google.com/maps/api/js?key=AIzaSyASlTbQBErny2KzXoGiltnn2BDR_9Ciwu0&callback=initMap"></script>
 
  
