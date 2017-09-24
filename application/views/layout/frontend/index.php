@@ -70,7 +70,7 @@
     <!-- END .header -->
 
     <?php include_once 'slider.php';?>
-    
+
     <?php echo $content_for_layout; ?>
 
     <footer id="fh5co-footer">
