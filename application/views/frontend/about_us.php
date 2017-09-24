@@ -102,7 +102,7 @@
             </div>
             <div class="fh5co-spacer fh5co-spacer-md"></div>
         </div>
-        <div class="row">
+<!--        <div class="row">
             <div class="col-md-3 col-sm-6 col-xs-6 col-xxs-12 fh5co-mb30">
                 <div class="fh5co-product">
                     <img src="images/slide_1.jpg" alt="FREEHTML5.co Free HTML5 Template Bootstrap" class="img-responsive img-rounded to-animate">
@@ -137,7 +137,7 @@
                 </div>
             </div>
 
-        </div>
+        </div>-->
     </div>
     <!-- Products -->
     <div class="fh5co-spacer fh5co-spacer-lg"></div>

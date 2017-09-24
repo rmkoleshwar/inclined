@@ -2,7 +2,7 @@
 <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>Booster &mdash; A free HTML5 Template by FREEHTML5.CO</title>
+    <title>Inclined Engineer Pvt Ltd.</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="description" content="" />
     <meta name="keywords" content="" />
@@ -53,14 +53,15 @@
                 <div class="navbar-header"> 
                     <!-- Mobile Toggle Menu Button -->
                     <a href="#" class="js-fh5co-nav-toggle fh5co-nav-toggle" data-toggle="collapse" data-target="#fh5co-navbar" aria-expanded="false" aria-controls="navbar"><i></i></a>
-                    <a class="navbar-brand" href="index.html">Booster</a>
+                    <a class="navbar-brand" href="index.html">Inclined Engg</a>
                 </div>
                 <div id="fh5co-navbar" class="navbar-collapse collapse">
                     <ul class="nav navbar-nav navbar-right">
                         <li class="active"><a href="<?php echo base_url(); ?>"><span>Home <span class="border"></span></span></a></li>
-                        <li><a href="<?php echo base_url(); ?>contactus"><span>Right Sidebar <span class="border"></span></span></a></li>
-                        <li><a href="left-sidebar.html"><span>Left Sidebar <span class="border"></span></span></a></li>
-                        <li><a href="elements.html"><span>Elements <span class="border"></span></span></a></li>
+                        <li><a href="<?php echo base_url(); ?>aboutus"><span>About Us<span class="border"></span></span></a></li>
+                        <li><a href="javascript: void(0);"><span>Services<span class="border"></span></span></a></li>
+                            <li><a href="javascript: void(0);"><span>Careers<span class="border"></span></span></a></li>
+                        <li><a href="<?php echo base_url(); ?>contactus"><span>Contact Us<span class="border"></span></span></a></li>
                     </ul>
                 </div>
             </div>
@@ -68,70 +69,8 @@
     </header>
     <!-- END .header -->
 
-    <div class="fh5co-slider">
-        <div class="owl-carousel owl-carousel-fullwidth">
-            <div class="item" style="background-image:url(<?php echo base_url(); ?>asset/images/slide_1.jpg)">
-                <div class="fh5co-overlay"></div>
-                <div class="container">
-                    <div class="row">
-                        <div class="col-md-8 col-md-offset-2">
-                            <div class="fh5co-owl-text-wrap">
-                                <div class="fh5co-owl-text text-center to-animate">
-                                    <h1 class="fh5co-lead">Booster Studio</h1>
-                                    <h2 class="fh5co-sub-lead">Booster is a free responsive HTML5 template using bootstrap released under Creative Commons 3.0. Lovely crafted by <a href="#">FREEHTML5.co</a></h2>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="item" style="background-image:url(<?php echo base_url(); ?>asset/images/slide_2.jpg)">
-                <div class="fh5co-overlay"></div>
-                <div class="container">
-                    <div class="row">
-                        <div class="col-md-8 col-md-offset-2">
-                            <div class="fh5co-owl-text-wrap">
-                                <div class="fh5co-owl-text text-center to-animate">
-                                    <h1 class="fh5co-lead">A Digital Studio</h1>
-                                    <h2 class="fh5co-sub-lead">Booster is a free responsive HTML5 template using bootstrap released under Creative Commons 3.0. Lovely crafted by <a href="#">FREEHTML5.co</a></h2>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="item" style="background-image:url(<?php echo base_url(); ?>asset/images/slide_3.jpg)">
-                <div class="fh5co-overlay"></div>
-                <div class="container">
-                    <div class="row">
-                        <div class="col-md-8 col-md-offset-2">
-                            <div class="fh5co-owl-text-wrap">
-                                <div class="fh5co-owl-text text-center to-animate">
-                                    <h1 class="fh5co-lead">Branding, UX under in one roof</h1>
-                                    <h2 class="fh5co-sub-lead">Booster is a free responsive HTML5 template using bootstrap released under Creative Commons 3.0. Lovely crafted by <a href="#">FREEHTML5.co</a></h2>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="item" style="background-image:url(<?php echo base_url(); ?>asset/images/slide_4.jpg)">
-                <div class="fh5co-overlay"></div>
-                <div class="container">
-                    <div class="row">
-                        <div class="col-md-8 col-md-offset-2">
-                            <div class="fh5co-owl-text-wrap">
-                                <div class="fh5co-owl-text text-center to-animate">
-                                    <h1 class="fh5co-lead">Creative Folks</h1>
-                                    <h2 class="fh5co-sub-lead">Booster is a free responsive HTML5 template using bootstrap released under Creative Commons 3.0. Lovely crafted by <a href="#">FREEHTML5.co</a></h2>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>	
+    <?php include_once 'slider.php';?>
+    
     <?php echo $content_for_layout; ?>
 
     <footer id="fh5co-footer">
